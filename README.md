@@ -8,7 +8,7 @@ The original dataset contains **283,726 records** and **31 columns**, including 
 
 - **Time**: Elapsed seconds since the first recorded transaction.
 - **Amount**: The value of the transaction.
-- **Class**: Target variable - `0` for Non-Fraud and `1` for Fraud.
+- **Class**: Target variable - '0' for Non-Fraud and `1` for Fraud.
 - **V1 to V28**: PCA-transformed features (anonymized for confidentiality).
 
 ## Data Cleaning and Transformation
