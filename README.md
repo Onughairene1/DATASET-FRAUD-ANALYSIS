@@ -8,7 +8,7 @@ The original dataset contains **283,726 records** and **31 columns**, including 
 
 - **Time**: Elapsed seconds since the first recorded transaction.
 - **Amount**: The value of the transaction.
-- **Class**: Target variable — `0` for Non-Fraud and `1` for Fraud.
+- **Class**: Target variable - `0` for Non-Fraud and `1` for Fraud.
 - **V1 to V28**: PCA-transformed features (anonymized for confidentiality).
 
 ## Data Cleaning and Transformation
@@ -16,8 +16,8 @@ The dataset was relatively clean but required some transformation for better vis
 
 - **Removal of Anonymized Features**: Columns `V1` to `V28` were excluded from the analysis as they were encrypted and non-interpretable for direct insights.
 - **Class Label Modification**: Values in the `Class` column were changed:
-  - `0` → **Non-Fraud**
-  - `1` → **Fraud**  
+   `0` - **Non-Fraud**
+   `1` - **Fraud**  
   This made the overview of transactions easier to grasp.
 
 ## Analysis
@@ -30,7 +30,7 @@ The dataset was relatively clean but required some transformation for better vis
 | Fraudulent Transactions     | 492       |
 | **Fraud Rate**              | **0.173%** |
 
-> **Insight**: The fraudulent transactions recorded were significantly fewer compared to the total number of transactions. The fraud cases were spread across the dataset rather than concentrated at particular periods.
+ **Insight**: The fraudulent transactions recorded were significantly fewer compared to the total number of transactions. The fraud cases were spread across the dataset rather than concentrated at particular periods.
 
 ### Transaction Amount Observation
 - Most fraudulent transactions involved relatively smaller amounts.
