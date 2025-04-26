@@ -16,7 +16,7 @@ The dataset was relatively clean but required some transformation for better vis
 
 - **Removal of Anonymized Features**: Columns `V1` to `V28` were excluded from the analysis as they were encrypted and non-interpretable for direct insights.
 - **Class Label Modification**: Values in the `Class` column were changed:
-   `0` - **Non-Fraud**
+   '0' - **Non-Fraud**
    `1` - **Fraud**  
   This made the overview of transactions easier to grasp.
 
